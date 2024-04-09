@@ -37,5 +37,5 @@ add_executable(test_roll
         vm_ops.c vm_ops.h
         logger.c logger.h
         vm_code_table.c vm_code_table.h
-        )
+)
 
