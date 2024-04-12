@@ -651,7 +651,7 @@ obj_ref native_Int_minus(void ) {
 vm_Word method_Int_minus[] = {
         {.instr = vm_op_enter},
         {.instr = vm_op_call_native},
-        {.native = native_Int_plus},
+        {.native = native_Int_minus},
         {.instr = vm_op_return},
         {.intval = 1}
 };
@@ -673,7 +673,7 @@ obj_ref native_Int_times(void ) {
 vm_Word method_Int_times[] = {
         {.instr = vm_op_enter},
         {.instr = vm_op_call_native},
-        {.native = native_Int_plus},
+        {.native = native_Int_times},
         {.instr = vm_op_return},
         {.intval = 1}
 };
@@ -695,7 +695,7 @@ obj_ref native_Int_divide(void ) {
 vm_Word method_Int_divide[] = {
         {.instr = vm_op_enter},
         {.instr = vm_op_call_native},
-        {.native = native_Int_plus},
+        {.native = native_Int_divide},
         {.instr = vm_op_return},
         {.intval = 1}
 };
